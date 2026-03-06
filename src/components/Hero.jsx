@@ -19,7 +19,7 @@ const Hero = () => {
 
             <button>Buy</button>
 
-            <p>From 1599€ ou 150€ pendant 12 mois</p>
+            <p>À partir 1599€ ou 150€ pendant 12 mois</p>
         </section>
     )
 }
