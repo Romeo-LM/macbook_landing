@@ -1,4 +1,4 @@
-import { NavLinks } from '../contantes'
+import { navLinks } from '../contantes'
 
 const NavBar = () => {
   return (
@@ -7,7 +7,7 @@ const NavBar = () => {
         <img src="./logo.svg" alt="Apple logo" />
 
         <ul>
-          {NavLinks.map(({ label }) => (
+          {navLinks.map(({ label }) => (
             <li key={label}>
               <a href={label}>{label}</a>
             </li>
