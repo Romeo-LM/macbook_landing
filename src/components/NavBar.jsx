@@ -1,4 +1,4 @@
-git initimport { NavLinks } from '../contantes'
+import { NavLinks } from '../contantes'
 
 const NavBar = () => {
   return (
