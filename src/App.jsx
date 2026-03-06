@@ -1,5 +1,5 @@
 import Hero from "./components/hero";
-import NavBar from "./components/NAvBar";
+import NavBar from "./components/NavBar";
 import ProductViewer from "./components/ProductViewer";
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";

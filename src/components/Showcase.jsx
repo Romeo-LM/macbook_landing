@@ -4,7 +4,7 @@ import gsap from 'gsap';
 
 const Showcase = () => {
 
-    const isTablet = useMediaQuery({ query: '()max-width: 1014px)' });
+    const isTablet = useMediaQuery({ query: '(max-width: 1014px)' });
 
     useGSAP(() => {
         if (!isTablet) {
@@ -14,13 +14,14 @@ const Showcase = () => {
                     trigger: '#showcase',
                     start: 'top top',
                     end: 'bottom top',
-                    scrub: true,
+                    //scrub: true,
                     pin: true,
+                    //markers: true,
                 }
             });
 
             timeline.to('.mask img', {
-                transform: 'scale(1.1)',
+                scale: 1.1,
             }).to('.content', {
                 opacity: 1,
                 y: 0,
