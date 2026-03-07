@@ -34,10 +34,10 @@ const Showcase = () => {
 
     return (
         <section id="showcase" ref={sectionRefShowcase}>
-            <div className="media">
-                <video src="./videos/game.mp4" loop muted autoPlay playsInline />
-                <div className="mask">
-                    <img src="./mask-logo.svg" />
+            <div className="media max-h-screen">
+                <video src="./videos/large.mp4" loop muted autoPlay playsInline />
+                <div className="mask w-full">
+                    <img src="./mask-logo.svg" className='w-full h-full object-cover'/>
                 </div>
             </div>
 
